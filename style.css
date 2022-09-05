@@ -1,0 +1,27 @@
+#post-container{
+
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 15px;
+}
+.poststyle{
+  border: 1px solid cyan;
+  border-radius: 10px;
+  background-color: tomato;
+  text-align: center;
+}
+#country-container{
+  /* border: 1px solid cyan;
+  border-radius: 10px;
+  */
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 15px;
+  /* background-color: tomato; */
+}
+.flags{
+  background-color: tomato;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
